@@ -1,0 +1,2 @@
+dropboxdata <- https://www.dropbox.com/s/5mzc60tbh09ew49/lalonde%20nsw.csv.zip?dl=0
+usethis::use_data(dropboxdata)
