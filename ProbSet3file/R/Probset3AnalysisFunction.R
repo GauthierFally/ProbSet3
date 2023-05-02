@@ -28,13 +28,13 @@
 #'
 #' @export
 
-AnalysisFunction <- function(data) {
-
-  if ((is.vector(data))& (training=T)) {
+AnalysisFunction <- function(data, training) {
+  
+  if ((is.vector(data))&(training==T)) {
     noise <- runif(length(data), -1,1)
     noisified <- data + noise
     print(noisified)
   } else {
     print(data)
-  }
+  }}
 
