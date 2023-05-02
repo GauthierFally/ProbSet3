@@ -1,2 +1,0 @@
-yes -> read.csv(lalonde.nsw.csv)
-usethis::use_data(yes)
