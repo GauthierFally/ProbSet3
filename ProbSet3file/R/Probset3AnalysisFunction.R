@@ -20,7 +20,6 @@
 #' #Create synthetic data
 #' x <- c("1","2","3","4")
 #'
-#'
 #' # Input the numerical array x into the function and specify a setting for training:
 #' result –> AnalysisFunction(x, training= T)
 #'
