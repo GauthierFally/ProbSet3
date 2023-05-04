@@ -33,7 +33,7 @@ GetDataAsset <- function(){
   temp_folder_unzip <- tempfile(pattern = temp_folder_name_unzip)
 
   # download the data asset
-download.file( https://www.dropbox.com/s/5mzc60tbh09ew49/lalonde%20nsw.csv.zip?dl=0, destfile =  temp_folder_zip)
+download.file( https://dl.dropbox.com/s/5mzc60tbh09ew49/lalonde%20nsw.csv.zip?dl=0, destfile =  temp_folder_zip)
 
   # unzip into folder
   unzip(temp_folder_zip,
